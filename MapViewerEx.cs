@@ -1410,7 +1410,7 @@ namespace VAGSuite
             set
             {
                 m_map_name = value;
-                this.Text = "Table details [" + m_map_name + "]";
+                this.Text = "Detalles de la tabla [" + m_map_name + "]";
                 //groupControl1.Text = "Symbol data [" + m_map_name + "] " + m_z_axis_name;
                 SetGroupText();
             }
@@ -2498,7 +2498,7 @@ namespace VAGSuite
             {
                 if (m_datasourceMutated)
                 {
-                    DialogResult dr = MessageBox.Show("Data was mutated, do you want to save these changes in you binary?", "Warning", MessageBoxButtons.YesNoCancel);
+                    DialogResult dr = MessageBox.Show("Se han modificado los datos. ¿Quieres guardar los cambios en el archivo binario?", "Advertencia", MessageBoxButtons.YesNoCancel);
                     if (dr == DialogResult.Yes)
                     {
                         m_SaveChanges = true;
@@ -4205,7 +4205,7 @@ namespace VAGSuite
             }
             else
             {
-                if (MessageBox.Show("No selection, copy the entire map?", "Question", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show("No hay ninguna selección. ¿Quieres copiar el mapa completo?", "Pregunta", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     CopyMapToClipboard();
                 }
@@ -5341,22 +5341,22 @@ namespace VAGSuite
             if (x != string.Empty)
             {
                 editXaxisSymbolToolStripMenuItem.Enabled = true;
-                editXaxisSymbolToolStripMenuItem.Text = "Edit x-axis (" + x + ")";
+                editXaxisSymbolToolStripMenuItem.Text = "Editar eje x (" + x + ")";
             }
             else
             {
                 editXaxisSymbolToolStripMenuItem.Enabled = false;
-                editXaxisSymbolToolStripMenuItem.Text = "Edit x-axis";
+                editXaxisSymbolToolStripMenuItem.Text = "Editar eje x";
             }
             if (y != string.Empty)
             {
                 editYaxisSymbolToolStripMenuItem.Enabled = true;
-                editYaxisSymbolToolStripMenuItem.Text = "Edit y-axis (" + y + ")";
+                editYaxisSymbolToolStripMenuItem.Text = "Editar eje y (" + y + ")";
             }
             else
             {
                 editYaxisSymbolToolStripMenuItem.Enabled = false;
-                editYaxisSymbolToolStripMenuItem.Text = "Edit y-axis";
+                editYaxisSymbolToolStripMenuItem.Text = "Editar eje y";
             }
         }
 
@@ -5406,7 +5406,7 @@ namespace VAGSuite
         {
             if (m_viewtype == ViewType.Hexadecimal)
             {
-                MessageBox.Show("Smoothing cannot be done in Hex view!");
+                MessageBox.Show("No se puede suavizar la vista hexadecimal.");
                 return;
             }
             DevExpress.XtraGrid.Views.Base.GridCell[] cellcollection = gridView1.GetSelectedCells();

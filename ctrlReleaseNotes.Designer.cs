@@ -128,7 +128,7 @@ namespace VAGSuite
             // 
             this.printPreviewToolStripMenuItem.Name = "printPreviewToolStripMenuItem";
             this.printPreviewToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.printPreviewToolStripMenuItem.Text = "Print preview";
+            this.printPreviewToolStripMenuItem.Text = "Vista previa de impresión";
             this.printPreviewToolStripMenuItem.Click += new System.EventHandler(this.printPreviewToolStripMenuItem_Click);
             // 
             // ctrlReleaseNotes

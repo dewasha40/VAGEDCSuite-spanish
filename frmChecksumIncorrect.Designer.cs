@@ -57,7 +57,7 @@
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(268, 27);
             this.labelControl1.TabIndex = 0;
-            this.labelControl1.Text = "Checksum verification failed.";
+            this.labelControl1.Text = "Ha fallado la verificación de las sumas de verificación.";
             // 
             // labelControl2
             // 
@@ -65,7 +65,7 @@
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(73, 13);
             this.labelControl2.TabIndex = 1;
-            this.labelControl2.Text = "Checksum type";
+            this.labelControl2.Text = "Tipo de suma de verificación";
             // 
             // textEdit1
             // 
@@ -93,7 +93,7 @@
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(104, 13);
             this.labelControl3.TabIndex = 3;
-            this.labelControl3.Text = "Number of checksums";
+            this.labelControl3.Text = "Número de sumas de verificación";
             // 
             // textEdit3
             // 
@@ -111,7 +111,7 @@
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(82, 13);
             this.labelControl4.TabIndex = 5;
-            this.labelControl4.Text = "Checksums failed";
+            this.labelControl4.Text = "Sumas de verificación incorrectas";
             // 
             // textEdit4
             // 
@@ -129,7 +129,7 @@
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(90, 13);
             this.labelControl5.TabIndex = 7;
-            this.labelControl5.Text = "Checksums passed";
+            this.labelControl5.Text = "Sumas de verificación correctas";
             // 
             // simpleButton1
             // 
@@ -138,7 +138,7 @@
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 9;
-            this.simpleButton1.Text = "Yes";
+            this.simpleButton1.Text = "Sí";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // simpleButton2
@@ -159,7 +159,7 @@
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(186, 13);
             this.labelControl6.TabIndex = 11;
-            this.labelControl6.Text = "Do you wish to correct the checksums?";
+            this.labelControl6.Text = "¿Quieres corregir las sumas de verificación?";
             // 
             // frmChecksumIncorrect
             // 
@@ -185,7 +185,7 @@
             this.Name = "frmChecksumIncorrect";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Checksum verification... ";
+            this.Text = "Verificación de checksums...";
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();

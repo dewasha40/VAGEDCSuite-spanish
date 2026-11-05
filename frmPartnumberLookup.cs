@@ -94,7 +94,7 @@ namespace VAGSuite
             }
             else
             {
-                MessageBox.Show("The entered partnumber was not recognized by VAGEDCSuite");
+                MessageBox.Show("VAGEDCSuite no reconoce el número de pieza introducido");
             }
         }
 

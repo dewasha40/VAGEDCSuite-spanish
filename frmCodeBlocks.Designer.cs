@@ -48,7 +48,7 @@
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(628, 275);
             this.groupControl1.TabIndex = 0;
-            this.groupControl1.Text = "Code block details";
+            this.groupControl1.Text = "Detalles del bloque de código";
             // 
             // gridControl1
             // 
@@ -77,7 +77,7 @@
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 1;
-            this.simpleButton1.Text = "Ok";
+            this.simpleButton1.Text = "Aceptar";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // frmCodeBlocks
@@ -90,7 +90,7 @@
             this.Name = "frmCodeBlocks";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Code block browser";
+            this.Text = "Navegador de bloques de código";
             this.Load += new System.EventHandler(this.frmCodeBlocks_Load);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);

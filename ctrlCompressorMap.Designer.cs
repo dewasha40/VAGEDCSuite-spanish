@@ -100,7 +100,7 @@ namespace VAGSuite
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
             this.toolStripLabel1.Size = new System.Drawing.Size(90, 22);
-            this.toolStripLabel1.Text = "Select your turbo";
+            this.toolStripLabel1.Text = "Selecciona tu turbo";
             // 
             // toolStripComboBox1
             // 
@@ -139,7 +139,7 @@ namespace VAGSuite
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton1.Text = "Refresh";
+            this.toolStripButton1.Text = "Actualizar";
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // toolStripButton2
@@ -149,7 +149,7 @@ namespace VAGSuite
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
             this.toolStripButton2.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton2.Text = "Save image";
+            this.toolStripButton2.Text = "Guardar imagen";
             this.toolStripButton2.Visible = false;
             this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
@@ -171,7 +171,7 @@ namespace VAGSuite
             this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
             this.toolStripDropDownButton1.Size = new System.Drawing.Size(29, 22);
-            this.toolStripDropDownButton1.Text = "Select compressor map";
+            this.toolStripDropDownButton1.Text = "Seleccionar mapa del compresor";
             this.toolStripDropDownButton1.Visible = false;
             // 
             // t1752ToolStripMenuItem
@@ -248,7 +248,7 @@ namespace VAGSuite
             // 
             this.toolStripLabel2.Name = "toolStripLabel2";
             this.toolStripLabel2.Size = new System.Drawing.Size(51, 22);
-            this.toolStripLabel2.Text = "Temp (C)";
+            this.toolStripLabel2.Text = "Temp. (°C)";
             // 
             // toolStripTextBox1
             // 

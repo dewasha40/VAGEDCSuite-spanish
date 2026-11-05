@@ -76,7 +76,7 @@ namespace VAGSuite
             {
                 if (hexBox1.ByteProvider != null && hexBox1.ByteProvider.HasChanges())
                 {
-                    DialogResult res = MessageBox.Show("Do you want to save changes?",
+                    DialogResult res = MessageBox.Show("¿Quiere guardar los cambios?",
                         "VAGEDCSuite",
                         MessageBoxButtons.YesNoCancel,
                         MessageBoxIcon.Warning);
@@ -176,7 +176,7 @@ namespace VAGSuite
         {
             if (!File.Exists(fileName))
             {
-                MessageBox.Show("File does not exist!");
+                MessageBox.Show("El archivo no existe!");
                 return;
             }
 
@@ -344,7 +344,7 @@ namespace VAGSuite
 
             if (res == -1) // -1 = no match
             {
-                MessageBox.Show("Find reached end of file", "EDC15P Suite",
+                MessageBox.Show("Se alcanzó el final del archivo", "EDC15P Suite",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else if (res == -2) // -2 = find was aborted

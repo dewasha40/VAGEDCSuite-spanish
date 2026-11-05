@@ -70,7 +70,7 @@ namespace VAGSuite
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(598, 272);
             this.groupControl1.TabIndex = 1;
-            this.groupControl1.Text = "Select a project";
+            this.groupControl1.Text = "Seleccionar un proyecto";
             // 
             // simpleButton1
             // 
@@ -79,7 +79,7 @@ namespace VAGSuite
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 2;
-            this.simpleButton1.Text = "Ok";
+            this.simpleButton1.Text = "Aceptar";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // simpleButton2
@@ -89,7 +89,7 @@ namespace VAGSuite
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(75, 23);
             this.simpleButton2.TabIndex = 3;
-            this.simpleButton2.Text = "Cancel";
+            this.simpleButton2.Text = "Cancelar";
             this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
             // frmProjectSelection
@@ -103,7 +103,7 @@ namespace VAGSuite
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmProjectSelection";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Select a project to open";
+            this.Text = "Seleccionar un proyecto para abrir";
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();

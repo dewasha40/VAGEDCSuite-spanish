@@ -743,7 +743,7 @@
             this.rbnSettings,
             this.rbnPageGourpProjects});
             this.ribFile.Name = "ribFile";
-            this.ribFile.Text = "File";
+            this.ribFile.Text = "Archivo";
             // 
             // rbpgGeneralFile
             // 
@@ -764,7 +764,7 @@
             this.rbnSettings.ItemLinks.Add(this.btnAppSettings);
             this.rbnSettings.ItemLinks.Add(this.btnLookupPartnumber);
             this.rbnSettings.Name = "rbnSettings";
-            this.rbnSettings.Text = "Settings";
+            this.rbnSettings.Text = "Configuración";
             // 
             // rbnPageGourpProjects
             // 
@@ -781,7 +781,7 @@
             this.rbnPageGourpProjects.ItemLinks.Add(this.btnShowProjectLogbook);
             this.rbnPageGourpProjects.ItemLinks.Add(this.btnProduceLatestBinary);
             this.rbnPageGourpProjects.Name = "rbnPageGourpProjects";
-            this.rbnPageGourpProjects.Text = "Projects";
+            this.rbnPageGourpProjects.Text = "Proyectos";
             // 
             // ribActions
             // 
@@ -790,7 +790,7 @@
             this.rbnPageGroupInformation,
             this.rbnPageGroupTools});
             this.ribActions.Name = "ribActions";
-            this.ribActions.Text = "Actions";
+            this.ribActions.Text = "Acciones";
             // 
             // ribpgGeneralActions
             // 
@@ -807,7 +807,7 @@
             this.rbnPageGroupInformation.ItemLinks.Add(this.btnFirmwareInformation);
             this.rbnPageGroupInformation.ItemLinks.Add(this.btnVINDecoder);
             this.rbnPageGroupInformation.Name = "rbnPageGroupInformation";
-            this.rbnPageGroupInformation.Text = "Information";
+            this.rbnPageGroupInformation.Text = "Información";
             // 
             // rbnPageGroupTools
             // 
@@ -823,7 +823,7 @@
             this.rbnPageGroupTools.ItemLinks.Add(this.btnExportToExcel, true);
             this.rbnPageGroupTools.ItemLinks.Add(this.btnExcelImport);
             this.rbnPageGroupTools.Name = "rbnPageGroupTools";
-            this.rbnPageGroupTools.Text = "Tools";
+            this.rbnPageGroupTools.Text = "Herramientas";
             // 
             // rbnPageTuning
             // 
@@ -831,7 +831,7 @@
             this.rbnPageInjection,
             this.rbnPageTurbo});
             this.rbnPageTuning.Name = "rbnPageTuning";
-            this.rbnPageTuning.Text = "Tuning";
+            this.rbnPageTuning.Text = "Afinación";
             // 
             // rbnPageInjection
             // 
@@ -846,7 +846,7 @@
             this.rbnPageInjection.ItemLinks.Add(this.btnInjectorDuration);
             this.rbnPageInjection.ItemLinks.Add(this.btnStartIQ);
             this.rbnPageInjection.Name = "rbnPageInjection";
-            this.rbnPageInjection.Text = "Injection quantity";
+            this.rbnPageInjection.Text = "Cantidad de inyección";
             // 
             // rbnPageTurbo
             // 
@@ -864,13 +864,13 @@
             this.rbnPageSkins.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.rbnPageGroupSkins});
             this.rbnPageSkins.Name = "rbnPageSkins";
-            this.rbnPageSkins.Text = "Skins";
+            this.rbnPageSkins.Text = "Temas";
             // 
             // rbnPageGroupSkins
             // 
             this.rbnPageGroupSkins.AllowTextClipping = false;
             this.rbnPageGroupSkins.Name = "rbnPageGroupSkins";
-            this.rbnPageGroupSkins.Text = "Available skins";
+            this.rbnPageGroupSkins.Text = "Temas disponibles";
             // 
             // rbnPageHelp
             // 
@@ -878,7 +878,7 @@
             this.rbnPageGroupUpdate,
             this.rbnPageDocumentation});
             this.rbnPageHelp.Name = "rbnPageHelp";
-            this.rbnPageHelp.Text = "Help";
+            this.rbnPageHelp.Text = "Ayuda";
             // 
             // rbnPageGroupUpdate
             // 
@@ -886,7 +886,7 @@
             this.rbnPageGroupUpdate.ItemLinks.Add(this.btnCheckForUpdates);
             this.rbnPageGroupUpdate.ItemLinks.Add(this.btnReleaseNotes);
             this.rbnPageGroupUpdate.Name = "rbnPageGroupUpdate";
-            this.rbnPageGroupUpdate.Text = "Updates";
+            this.rbnPageGroupUpdate.Text = "Actualizaciones";
             // 
             // rbnPageDocumentation
             // 
@@ -895,7 +895,7 @@
             this.rbnPageDocumentation.ItemLinks.Add(this.btnUserManual);
             this.rbnPageDocumentation.ItemLinks.Add(this.btnAbout);
             this.rbnPageDocumentation.Name = "rbnPageDocumentation";
-            this.rbnPageDocumentation.Text = "Documentation";
+            this.rbnPageDocumentation.Text = "Documentación";
             // 
             // ribbonStatusBar1
             // 
@@ -942,7 +942,7 @@
             this.dockSymbols.Options.ShowCloseButton = false;
             this.dockSymbols.OriginalSize = new System.Drawing.Size(527, 200);
             this.dockSymbols.Size = new System.Drawing.Size(527, 347);
-            this.dockSymbols.Text = "Maps";
+            this.dockSymbols.Text = "Mapas";
             // 
             // dockPanel1_Container
             // 
@@ -980,21 +980,21 @@
             // 
             this.editXAxisToolStripMenuItem.Name = "editXAxisToolStripMenuItem";
             this.editXAxisToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
-            this.editXAxisToolStripMenuItem.Text = "Edit x axis";
+            this.editXAxisToolStripMenuItem.Text = "Editar eje x";
             this.editXAxisToolStripMenuItem.Click += new System.EventHandler(this.editXAxisToolStripMenuItem_Click);
             // 
             // editYAxisToolStripMenuItem
             // 
             this.editYAxisToolStripMenuItem.Name = "editYAxisToolStripMenuItem";
             this.editYAxisToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
-            this.editYAxisToolStripMenuItem.Text = "Edit y axis";
+            this.editYAxisToolStripMenuItem.Text = "Editar eje y";
             this.editYAxisToolStripMenuItem.Click += new System.EventHandler(this.editYAxisToolStripMenuItem_Click);
             // 
             // exportToExcelToolStripMenuItem
             // 
             this.exportToExcelToolStripMenuItem.Name = "exportToExcelToolStripMenuItem";
             this.exportToExcelToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
-            this.exportToExcelToolStripMenuItem.Text = "Export to Excel";
+            this.exportToExcelToolStripMenuItem.Text = "Exportar a Excel";
             this.exportToExcelToolStripMenuItem.Click += new System.EventHandler(this.exportToExcelToolStripMenuItem_Click);
             // 
             // gridViewSymbols

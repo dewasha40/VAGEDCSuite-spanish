@@ -60,11 +60,11 @@ namespace VAGSuite
                                 br1.Close();
                                 fsi2.Close();
                                 br2.Close();
-                                MessageBox.Show("Files merged successfully");
+                                MessageBox.Show("Archivos fusionados correctamente");
                             }
                             else
                             {
-                                MessageBox.Show("File lengths don't match, unable to merge!");
+                                MessageBox.Show("Los tamaños de los archivos no coinciden, no se puede fusionar!");
                             }
                             
                         }

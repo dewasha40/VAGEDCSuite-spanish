@@ -113,7 +113,7 @@ namespace VAGSuite
             this.simpleButton3.Name = "simpleButton3";
             this.simpleButton3.Size = new System.Drawing.Size(92, 23);
             this.simpleButton3.TabIndex = 9;
-            this.simpleButton3.Text = "Undo changes";
+            this.simpleButton3.Text = "Deshacer cambios";
             this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
             // 
             // simpleButton2
@@ -123,7 +123,7 @@ namespace VAGSuite
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(75, 23);
             this.simpleButton2.TabIndex = 8;
-            this.simpleButton2.Text = "Save";
+            this.simpleButton2.Text = "Guardar";
             this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
             // groupControl1
@@ -136,7 +136,7 @@ namespace VAGSuite
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(870, 604);
             this.groupControl1.TabIndex = 5;
-            this.groupControl1.Text = "Symbol data";
+            this.groupControl1.Text = "Datos del símbolo";
             this.groupControl1.DoubleClick += new System.EventHandler(this.groupControl1_DoubleClick);
             this.groupControl1.Paint += new System.Windows.Forms.PaintEventHandler(this.groupControl1_Paint);
             // 
@@ -200,7 +200,7 @@ namespace VAGSuite
             // 
             this.copySelectedCellsToolStripMenuItem.Name = "copySelectedCellsToolStripMenuItem";
             this.copySelectedCellsToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
-            this.copySelectedCellsToolStripMenuItem.Text = "Copy selected cells";
+            this.copySelectedCellsToolStripMenuItem.Text = "Copiar celdas seleccionadas";
             this.copySelectedCellsToolStripMenuItem.Click += new System.EventHandler(this.copySelectedCellsToolStripMenuItem_Click);
             // 
             // pasteSelectedCellsToolStripMenuItem
@@ -210,41 +210,41 @@ namespace VAGSuite
             this.atCurrentlySelectedLocationToolStripMenuItem});
             this.pasteSelectedCellsToolStripMenuItem.Name = "pasteSelectedCellsToolStripMenuItem";
             this.pasteSelectedCellsToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
-            this.pasteSelectedCellsToolStripMenuItem.Text = "Paste selected cells";
+            this.pasteSelectedCellsToolStripMenuItem.Text = "Pegar celdas seleccionadas";
             // 
             // inOrgininalPositionToolStripMenuItem
             // 
             this.inOrgininalPositionToolStripMenuItem.Name = "inOrgininalPositionToolStripMenuItem";
             this.inOrgininalPositionToolStripMenuItem.Size = new System.Drawing.Size(225, 22);
-            this.inOrgininalPositionToolStripMenuItem.Text = "At original position";
+            this.inOrgininalPositionToolStripMenuItem.Text = "En posición original";
             this.inOrgininalPositionToolStripMenuItem.Click += new System.EventHandler(this.inOrgininalPositionToolStripMenuItem_Click);
             // 
             // atCurrentlySelectedLocationToolStripMenuItem
             // 
             this.atCurrentlySelectedLocationToolStripMenuItem.Name = "atCurrentlySelectedLocationToolStripMenuItem";
             this.atCurrentlySelectedLocationToolStripMenuItem.Size = new System.Drawing.Size(225, 22);
-            this.atCurrentlySelectedLocationToolStripMenuItem.Text = "At currently selected location";
+            this.atCurrentlySelectedLocationToolStripMenuItem.Text = "En la ubicación seleccionada";
             this.atCurrentlySelectedLocationToolStripMenuItem.Click += new System.EventHandler(this.atCurrentlySelectedLocationToolStripMenuItem_Click);
             // 
             // editXaxisSymbolToolStripMenuItem
             // 
             this.editXaxisSymbolToolStripMenuItem.Name = "editXaxisSymbolToolStripMenuItem";
             this.editXaxisSymbolToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
-            this.editXaxisSymbolToolStripMenuItem.Text = "Edit x-axis";
+            this.editXaxisSymbolToolStripMenuItem.Text = "Editar eje x";
             this.editXaxisSymbolToolStripMenuItem.Click += new System.EventHandler(this.editXaxisSymbolToolStripMenuItem_Click);
             // 
             // editYaxisSymbolToolStripMenuItem
             // 
             this.editYaxisSymbolToolStripMenuItem.Name = "editYaxisSymbolToolStripMenuItem";
             this.editYaxisSymbolToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
-            this.editYaxisSymbolToolStripMenuItem.Text = "Edit y-axis";
+            this.editYaxisSymbolToolStripMenuItem.Text = "Editar eje y";
             this.editYaxisSymbolToolStripMenuItem.Click += new System.EventHandler(this.editYaxisSymbolToolStripMenuItem_Click);
             // 
             // smoothSelectionToolStripMenuItem
             // 
             this.smoothSelectionToolStripMenuItem.Name = "smoothSelectionToolStripMenuItem";
             this.smoothSelectionToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
-            this.smoothSelectionToolStripMenuItem.Text = "Smooth selection";
+            this.smoothSelectionToolStripMenuItem.Text = "Suavizar selección";
             this.smoothSelectionToolStripMenuItem.Click += new System.EventHandler(this.smoothSelectionToolStripMenuItem_Click);
             // 
             // gridView1
@@ -300,7 +300,7 @@ namespace VAGSuite
             this.xtraTabPage1.Controls.Add(this.simpleButton7);
             this.xtraTabPage1.Name = "xtraTabPage1";
             this.xtraTabPage1.Size = new System.Drawing.Size(841, 288);
-            this.xtraTabPage1.Text = "3D Graph";
+            this.xtraTabPage1.Text = "Gráfica 3D";
             // 
             // btnToggleOverlay
             // 
@@ -380,7 +380,7 @@ namespace VAGSuite
             this.xtraTabPage2.Controls.Add(this.trackBarControl1);
             this.xtraTabPage2.Name = "xtraTabPage2";
             this.xtraTabPage2.Size = new System.Drawing.Size(841, 288);
-            this.xtraTabPage2.Text = "2D Graph";
+            this.xtraTabPage2.Text = "Gráfica 2D";
             // 
             // nChartControl2
             // 
@@ -417,7 +417,7 @@ namespace VAGSuite
             this.labelControl8.Name = "labelControl8";
             this.labelControl8.Size = new System.Drawing.Size(104, 34);
             this.labelControl8.TabIndex = 3;
-            this.labelControl8.Text = "MAP values";
+            this.labelControl8.Text = "Valores MAP";
             // 
             // trackBarControl1
             // 
@@ -495,7 +495,7 @@ namespace VAGSuite
             this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton3.Name = "toolStripButton3";
             this.toolStripButton3.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton3.Text = "Execute";
+            this.toolStripButton3.Text = "Ejecutar";
             this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
             // 
             // toolStripSeparator4
@@ -507,7 +507,7 @@ namespace VAGSuite
             // 
             this.toolStripLabel3.Name = "toolStripLabel3";
             this.toolStripLabel3.Size = new System.Drawing.Size(51, 22);
-            this.toolStripLabel3.Text = "Viewtype";
+            this.toolStripLabel3.Text = "Tipo de vista";
             // 
             // toolStripComboBox3
             // 
@@ -534,7 +534,7 @@ namespace VAGSuite
             this.toolStripButton7.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton7.Name = "toolStripButton7";
             this.toolStripButton7.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton7.Text = "Toggle graph/map";
+            this.toolStripButton7.Text = "Alternar gráfica/mapa";
             this.toolStripButton7.Click += new System.EventHandler(this.toolStripButton7_Click);
             // 
             // toolStripButton6
@@ -544,7 +544,7 @@ namespace VAGSuite
             this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton6.Name = "toolStripButton6";
             this.toolStripButton6.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton6.Text = "Maximize window";
+            this.toolStripButton6.Text = "Maximizar ventana";
             this.toolStripButton6.Click += new System.EventHandler(this.toolStripButton6_Click);
             // 
             // toolStripButton1
@@ -554,7 +554,7 @@ namespace VAGSuite
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton1.Text = "Toggle graph section";
+            this.toolStripButton1.Text = "Alternar sección gráfica";
             this.toolStripButton1.Visible = false;
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
@@ -565,7 +565,7 @@ namespace VAGSuite
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
             this.toolStripButton2.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton2.Text = "Toggle hexview";
+            this.toolStripButton2.Text = "Alternar vista hexadecimal";
             this.toolStripButton2.Visible = false;
             this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
@@ -576,7 +576,7 @@ namespace VAGSuite
             this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton4.Name = "toolStripButton4";
             this.toolStripButton4.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton4.Text = "Maximize graph";
+            this.toolStripButton4.Text = "Maximizar gráfico";
             this.toolStripButton4.Visible = false;
             this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
             // 
@@ -587,7 +587,7 @@ namespace VAGSuite
             this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton5.Name = "toolStripButton5";
             this.toolStripButton5.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton5.Text = "Maximize table";
+            this.toolStripButton5.Text = "Maximizar tabla";
             this.toolStripButton5.Visible = false;
             this.toolStripButton5.Click += new System.EventHandler(this.toolStripButton5_Click);
             // 
@@ -600,7 +600,7 @@ namespace VAGSuite
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
             this.toolStripLabel1.Size = new System.Drawing.Size(77, 22);
-            this.toolStripLabel1.Text = "Axis lock mode";
+            this.toolStripLabel1.Text = "Modo bloqueo de eje";
             this.toolStripLabel1.Visible = false;
             // 
             // toolStripComboBox2
@@ -638,7 +638,7 @@ namespace VAGSuite
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 14;
-            this.simpleButton1.Text = "Close";
+            this.simpleButton1.Text = "Cerrar";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // simpleButton8
@@ -648,7 +648,7 @@ namespace VAGSuite
             this.simpleButton8.Name = "simpleButton8";
             this.simpleButton8.Size = new System.Drawing.Size(90, 23);
             this.simpleButton8.TabIndex = 15;
-            this.simpleButton8.Text = "Save to ECU";
+            this.simpleButton8.Text = "Guardar en la ECU";
             this.simpleButton8.Visible = false;
             this.simpleButton8.Click += new System.EventHandler(this.simpleButton8_Click);
             // 
@@ -659,7 +659,7 @@ namespace VAGSuite
             this.simpleButton9.Name = "simpleButton9";
             this.simpleButton9.Size = new System.Drawing.Size(90, 23);
             this.simpleButton9.TabIndex = 16;
-            this.simpleButton9.Text = "Read from ECU";
+            this.simpleButton9.Text = "Leer de la ECU";
             this.simpleButton9.Visible = false;
             this.simpleButton9.Click += new System.EventHandler(this.simpleButton9_Click);
             // 
@@ -670,7 +670,7 @@ namespace VAGSuite
             this.simpleButton10.Name = "simpleButton10";
             this.simpleButton10.Size = new System.Drawing.Size(90, 23);
             this.simpleButton10.TabIndex = 17;
-            this.simpleButton10.Text = "Read";
+            this.simpleButton10.Text = "Leer";
             this.simpleButton10.Click += new System.EventHandler(this.simpleButton10_Click);
             // 
             // MapViewerEx

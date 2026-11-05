@@ -153,7 +153,7 @@ namespace VAGSuite
             mv.LoadXML(xmlfilename);
             mv.Dock = DockStyle.Fill;
             dp.Width = 500;
-            dp.Text = "Release notes: " + version;
+            dp.Text = "Notas de liberación:" + version;
             dp.Controls.Add(mv);
             dockManager1.EndUpdate();
         }
@@ -177,7 +177,7 @@ namespace VAGSuite
             }
             else
             {
-                MessageBox.Show("No file is currently opened, you need to open a binary file first to compare it to another one!");
+                MessageBox.Show("No hay ningún archivo abierto actualmente, necesita abrir un archivo binario primero para compararlo con otro.");
             }
         }
 
@@ -541,7 +541,7 @@ namespace VAGSuite
                                     tabdet.onAxisLock +=new MapViewerEx.NotifyAxisLock(tabdet_onAxisLock);
                                     tabdet.onViewTypeChanged +=new MapViewerEx.ViewTypeChanged(tabdet_onViewTypeChanged);
 
-                                    dockPanel.Text = "Symbol: " + tabdet.Map_name + " [" + Path.GetFileName(Tools.Instance.m_currentfile) + "]";
+                                    dockPanel.Text = "Símbolo:" + tabdet.Map_name + " [" + Path.GetFileName(Tools.Instance.m_currentfile) + "]";
                                     bool isDocked = false;
 
                                     if (!isDocked)
@@ -1135,7 +1135,7 @@ namespace VAGSuite
                     tabdet.Filename = filename;
                     tabdet.onSymbolSelect += new CompareResults.NotifySelectSymbol(tabdet_onSymbolSelect);
                     dockPanel.Controls.Add(tabdet);
-                    dockPanel.Text = "Compare results: " + Path.GetFileName(filename);
+                    dockPanel.Text = "Resultados de comparación:" + Path.GetFileName(filename);
                     dockPanel.DockTo(dockManager1, DevExpress.XtraBars.Docking.DockingStyle.Left, 1);
                     dockPanel.Width = 500;
                     SymbolCollection compare_symbols = new SymbolCollection();
@@ -1320,7 +1320,7 @@ namespace VAGSuite
 
 
                             //dockPanel.DockAsTab(dockPanel1);
-                            dockPanel.Text = "Symbol: " + SymbolName + " [" + Path.GetFileName(Filename) + "]";
+                            dockPanel.Text = "Símbolo:" + SymbolName + " [" + Path.GetFileName(Filename) + "]";
                             dockPanel.DockTo(dockManager1, DevExpress.XtraBars.Docking.DockingStyle.Right, 1);
                             bool isDocked = false;
                             // Try to dock to same symbol
@@ -1510,7 +1510,7 @@ namespace VAGSuite
                             tabdet.ShowTable(columns, true);
                             tabdet.Dock = DockStyle.Fill;
                             tabdet.onClose += new MapViewerEx.ViewerClose(tabdet_onClose);
-                            dockPanel.Text = "Symbol difference: " + sh.Varname + " [" + Path.GetFileName(Filename) + "]";
+                            dockPanel.Text = "Diferencia del símbolo:" + sh.Varname + " [" + Path.GetFileName(Filename) + "]";
                             bool isDocked = false;
 
                             if (!isDocked)
@@ -2191,7 +2191,7 @@ namespace VAGSuite
                         dockPanel = dockManager1.AddPanel(floatpoint);
                     }
 
-                    dockPanel.Text = "Hexviewer: " + Path.GetFileName(Tools.Instance.m_currentfile);
+                    dockPanel.Text = "Visualizador hexadecimal:" + Path.GetFileName(Tools.Instance.m_currentfile);
                     HexViewer hv = new HexViewer();
                     hv.Issramviewer = false;
                     hv.Dock = DockStyle.Fill;
@@ -2354,7 +2354,7 @@ namespace VAGSuite
                             tabdet.Filename = Tools.Instance.m_currentfile;
                             tabdet.onSymbolSelect += new CompareResults.NotifySelectSymbol(tabdet_onSymbolSelectForFind);
                             dockPanel.Controls.Add(tabdet);
-                            dockPanel.Text = "Search results: " + Path.GetFileName(Tools.Instance.m_currentfile);
+                            dockPanel.Text = "Resultados de búsqueda:" + Path.GetFileName(Tools.Instance.m_currentfile);
                             dockPanel.DockTo(dockManager1, DevExpress.XtraBars.Docking.DockingStyle.Left, 1);
 
                             dockPanel.Width = 500;
@@ -2431,7 +2431,7 @@ namespace VAGSuite
             if (sfd.ShowDialog() == DialogResult.OK)
             {
                 File.Copy(Tools.Instance.m_currentfile, sfd.FileName, true);
-                if (MessageBox.Show("Do you want to open the newly saved file?", "Question", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show("¿Quieres abrir el archivo que acabas de guardar?", "Pregunta", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     m_appSettings.Lastprojectname = "";
                     CloseProject();
@@ -2503,7 +2503,7 @@ namespace VAGSuite
                     CreateProjectBackupFile();
                     UpdateRollbackForwardControls();
                     m_appSettings.Lastprojectname = Tools.Instance.m_CurrentWorkingProject;
-                    this.Text = "VAGEDCSuite [Project: " + projectname + "]";
+                    this.Text = "VAGEDCSuite [Proyecto:" + projectname + "]";
                 }
             }
         }
@@ -3369,7 +3369,7 @@ namespace VAGSuite
                     }
                     tabdet.CorrectionFactor = (float)symbol.X_axis_correction;
                     tabdet.SetData(dataValues);
-                    dockPanel.Text = "Axis: (X) " + tabdet.Map_name + " [" + Path.GetFileName(Tools.Instance.m_currentfile) + "]";
+                    dockPanel.Text = "Eje: (X)" + tabdet.Map_name + " [" + Path.GetFileName(Tools.Instance.m_currentfile) + "]";
                 }
                 else if (AxisToShow == Axis.YAxis)
                 {
@@ -3385,7 +3385,7 @@ namespace VAGSuite
                     }
                     tabdet.CorrectionFactor = (float)symbol.Y_axis_correction;
                     tabdet.SetData(dataValues);
-                    dockPanel.Text = "Axis: (Y) " + tabdet.Map_name + " [" + Path.GetFileName(Tools.Instance.m_currentfile) + "]";
+                    dockPanel.Text = "Eje: (Y)" + tabdet.Map_name + " [" + Path.GetFileName(Tools.Instance.m_currentfile) + "]";
                 }
 
                 tabdet.onClose += new ctrlAxisEditor.ViewerClose(axis_Close);
@@ -3582,22 +3582,22 @@ namespace VAGSuite
                     if (sh.X_axis_address > 0 && sh.X_axis_length > 0)
                     {
                         editXAxisToolStripMenuItem.Enabled = true;
-                        editXAxisToolStripMenuItem.Text = "Edit x axis (" + sh.X_axis_descr + " " + sh.Y_axis_address.ToString("X8") + ")";
+                        editXAxisToolStripMenuItem.Text = "Editar eje x (" + sh.X_axis_descr + " " + sh.Y_axis_address.ToString("X8") + ")";
                     }
                     else
                     {
                         editXAxisToolStripMenuItem.Enabled = false;
-                        editYAxisToolStripMenuItem.Text = "Edit x axis";
+                        editYAxisToolStripMenuItem.Text = "Editar eje x";
                     }
                     if (sh.Y_axis_address > 0 && sh.Y_axis_length > 0)
                     {
                         editYAxisToolStripMenuItem.Enabled = true;
-                        editYAxisToolStripMenuItem.Text = "Edit y axis (" + sh.Y_axis_descr + " " + sh.X_axis_address.ToString("X8") + ")";
+                        editYAxisToolStripMenuItem.Text = "Editar eje y (" + sh.Y_axis_descr + " " + sh.X_axis_address.ToString("X8") + ")";
                     }
                     else
                     {
                         editYAxisToolStripMenuItem.Enabled = false;
-                        editYAxisToolStripMenuItem.Text = "Edit y axis";
+                        editYAxisToolStripMenuItem.Text = "Editar eje y";
                     }
                 }
             }
@@ -3652,7 +3652,7 @@ namespace VAGSuite
                     dockPanel = dockManager1.AddPanel(DevExpress.XtraBars.Docking.DockingStyle.Right);
                     dockPanel.Tag = Tools.Instance.m_currentfile;
                     dockPanel.ClosedPanel += new DevExpress.XtraBars.Docking.DockPanelEventHandler(dockPanel_ClosedPanel);
-                    dockPanel.Text = "Airmass result viewer: " + Path.GetFileName(Tools.Instance.m_currentfile);
+                    dockPanel.Text = "Visualizador de resultados de masa de aire:" + Path.GetFileName(Tools.Instance.m_currentfile);
                     dockPanel.Width = 800;
                     airmassResult.onStartTableViewer += new ctrlAirmassResult.StartTableViewer(airmassResult_onStartTableViewer);
                     airmassResult.onClose += new ctrlAirmassResult.ViewerClose(airmassResult_onClose);
@@ -4394,7 +4394,7 @@ namespace VAGSuite
                     fs2.Close();
                     fsi1.Close();
                     br1.Close();
-                    MessageBox.Show("File split to chip1.bin and chip2.bin");
+                    MessageBox.Show("El archivo se dividió en chip1.bin y chip2.bin");
                 }
             }
         }
@@ -4818,7 +4818,7 @@ namespace VAGSuite
                             {
                                 symbolfound = true;
                                 realmapname = sh.Varname;
-                                if (MessageBox.Show("Found valid symbol for import: " + sh.Varname + ". Are you sure you want to overwrite the map in the binary?", "Confirmation", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                                if (MessageBox.Show("Se encontró un símbolo válido para importar:" + sh.Varname + ". ¿Está seguro de que quiere sobrescribir el mapa en el binario?", "Confirmación", MessageBoxButtons.YesNo) == DialogResult.Yes)
                                 {
                                     // ok, overwrite info in binary
                                 }

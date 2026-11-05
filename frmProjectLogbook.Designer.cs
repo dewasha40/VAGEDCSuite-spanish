@@ -51,7 +51,7 @@ namespace VAGSuite
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(662, 290);
             this.groupControl1.TabIndex = 0;
-            this.groupControl1.Text = "Logbook entries";
+            this.groupControl1.Text = "Entradas del diario";
             // 
             // gridControl1
             // 
@@ -114,7 +114,7 @@ namespace VAGSuite
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 1;
-            this.simpleButton1.Text = "Close";
+            this.simpleButton1.Text = "Cerrar";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // frmProjectLogbook
@@ -127,7 +127,7 @@ namespace VAGSuite
             this.Controls.Add(this.groupControl1);
             this.Name = "frmProjectLogbook";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Project logbook";
+            this.Text = "Diario del proyecto";
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();

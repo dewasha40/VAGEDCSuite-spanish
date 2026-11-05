@@ -106,7 +106,7 @@ namespace VAGSuite
             this.rbString.Size = new System.Drawing.Size(104, 16);
             this.rbString.TabIndex = 0;
             this.rbString.TabStop = true;
-            this.rbString.Text = "String";
+            this.rbString.Text = "Cadena";
             // 
             // rbHex
             // 
@@ -115,7 +115,7 @@ namespace VAGSuite
             this.rbHex.Name = "rbHex";
             this.rbHex.Size = new System.Drawing.Size(104, 16);
             this.rbHex.TabIndex = 2;
-            this.rbHex.Text = "Hex";
+            this.rbHex.Text = "Hexadecimal";
             // 
             // label1
             // 
@@ -125,7 +125,7 @@ namespace VAGSuite
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(40, 16);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Find";
+            this.label1.Text = "Buscar";
             // 
             // btnOK
             // 
@@ -135,7 +135,7 @@ namespace VAGSuite
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(75, 23);
             this.btnOK.TabIndex = 4;
-            this.btnOK.Text = "Find next";
+            this.btnOK.Text = "Buscar siguiente";
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
             // btnCancel
@@ -146,7 +146,7 @@ namespace VAGSuite
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 5;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = "Cancelar";
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // groupBox1
@@ -178,7 +178,7 @@ namespace VAGSuite
             this.MinimizeBox = false;
             this.Name = "FormFind";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Find";
+            this.Text = "Buscar";
             this.Activated += new System.EventHandler(this.FormFind_Activated);
             this.ResumeLayout(false);
             this.PerformLayout();

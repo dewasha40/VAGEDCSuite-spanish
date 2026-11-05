@@ -54,7 +54,7 @@ namespace VAGSuite
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(110, 23);
             this.simpleButton2.TabIndex = 1;
-            this.simpleButton2.Text = "Ignore";
+            this.simpleButton2.Text = "Ignorar";
             this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
             // labelControl2
@@ -65,7 +65,7 @@ namespace VAGSuite
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(158, 18);
             this.labelControl2.TabIndex = 4;
-            this.labelControl2.Text = "Available version: 1.0.54";
+            this.labelControl2.Text = "Versión disponible: 1.0.54";
             // 
             // labelControl1
             // 
@@ -77,7 +77,7 @@ namespace VAGSuite
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(475, 88);
             this.labelControl1.TabIndex = 5;
-            this.labelControl1.Text = "VAGEDCSuite automatic updater found some new toys for you!";
+            this.labelControl1.Text = "El actualizador de VAGEDCSuite ha encontrado una nueva versión.";
             // 
             // simpleButton3
             // 
@@ -87,7 +87,7 @@ namespace VAGSuite
             this.simpleButton3.Name = "simpleButton3";
             this.simpleButton3.Size = new System.Drawing.Size(110, 23);
             this.simpleButton3.TabIndex = 6;
-            this.simpleButton3.Text = "Show change log";
+            this.simpleButton3.Text = "Mostrar registro de cambios";
             this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
             // 
             // frmUpdateAvailable
@@ -108,7 +108,7 @@ namespace VAGSuite
             this.MinimizeBox = false;
             this.Name = "frmUpdateAvailable";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "New version VAGEDCSuite available...";
+            this.Text = "Nueva versión VAGEDCSuite disponible...";
             this.Load += new System.EventHandler(this.frmUpdateAvailable_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

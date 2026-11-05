@@ -38,7 +38,7 @@ namespace VAGSuite
 
         public void SetVersionNumber(string version)
         {
-            labelControl2.Text = "Available version: " + version;
+            labelControl2.Text = "Versión disponible:" + version;
         }
 
         

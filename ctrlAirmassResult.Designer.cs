@@ -119,7 +119,7 @@ namespace VAGSuite
             this.xtraTabPage1.Controls.Add(this.gridControl1);
             this.xtraTabPage1.Name = "xtraTabPage1";
             this.xtraTabPage1.Size = new System.Drawing.Size(797, 353);
-            this.xtraTabPage1.Text = "Table view";
+            this.xtraTabPage1.Text = "Vista de tabla";
             // 
             // gridControl1
             // 
@@ -163,7 +163,7 @@ namespace VAGSuite
             this.xtraTabPage2.Controls.Add(this.chartControl1);
             this.xtraTabPage2.Name = "xtraTabPage2";
             this.xtraTabPage2.Size = new System.Drawing.Size(793, 350);
-            this.xtraTabPage2.Text = "Dyno graph view";
+            this.xtraTabPage2.Text = "Gráfica del banco de pruebas";
             // 
             // checkEdit9
             // 
@@ -232,14 +232,14 @@ namespace VAGSuite
             // 
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
             this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.saveAsToolStripMenuItem.Text = "Save as ...";
+            this.saveAsToolStripMenuItem.Text = "Guardar como...";
             this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
             // 
             // printToolStripMenuItem
             // 
             this.printToolStripMenuItem.Name = "printToolStripMenuItem";
             this.printToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.printToolStripMenuItem.Text = "Print";
+            this.printToolStripMenuItem.Text = "Imprimir";
             this.printToolStripMenuItem.Click += new System.EventHandler(this.printToolStripMenuItem_Click);
             // 
             // groupControl2
@@ -266,7 +266,7 @@ namespace VAGSuite
             this.groupControl2.Name = "groupControl2";
             this.groupControl2.Size = new System.Drawing.Size(799, 156);
             this.groupControl2.TabIndex = 3;
-            this.groupControl2.Text = "Options";
+            this.groupControl2.Text = "Opciones";
             // 
             // comboBoxEdit1
             // 
@@ -321,7 +321,7 @@ namespace VAGSuite
             this.labelControl14.Name = "labelControl14";
             this.labelControl14.Size = new System.Drawing.Size(66, 13);
             this.labelControl14.TabIndex = 18;
-            this.labelControl14.Text = "Fuelcut limiter";
+            this.labelControl14.Text = "Limitador de corte de combustible";
             this.labelControl14.Visible = false;
             this.labelControl14.DoubleClick += new System.EventHandler(this.labelControl14_DoubleClick);
             this.labelControl14.Click += new System.EventHandler(this.labelControl14_Click);
@@ -340,7 +340,7 @@ namespace VAGSuite
             this.labelControl9.Name = "labelControl9";
             this.labelControl9.Size = new System.Drawing.Size(84, 13);
             this.labelControl9.TabIndex = 14;
-            this.labelControl9.Text = "Ambient pressure";
+            this.labelControl9.Text = "Presión ambiente";
             // 
             // spinEdit1
             // 
@@ -390,7 +390,7 @@ namespace VAGSuite
             this.labelControl8.Name = "labelControl8";
             this.labelControl8.Size = new System.Drawing.Size(88, 13);
             this.labelControl8.TabIndex = 11;
-            this.labelControl8.Text = "Turbospeed limiter";
+            this.labelControl8.Text = "Limitador de velocidad del turbo";
             this.labelControl8.Visible = false;
             this.labelControl8.DoubleClick += new System.EventHandler(this.labelControl8_DoubleClick);
             // 
@@ -426,7 +426,7 @@ namespace VAGSuite
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(65, 13);
             this.labelControl3.TabIndex = 7;
-            this.labelControl3.Text = "Torque limiter";
+            this.labelControl3.Text = "Limitador de par motor";
             this.labelControl3.DoubleClick += new System.EventHandler(this.labelControl3_DoubleClick);
             // 
             // labelControl1
@@ -438,7 +438,7 @@ namespace VAGSuite
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(68, 13);
             this.labelControl1.TabIndex = 5;
-            this.labelControl1.Text = "Airmass limiter";
+            this.labelControl1.Text = "Limitador de masa de aire";
             this.labelControl1.Visible = false;
             this.labelControl1.DoubleClick += new System.EventHandler(this.labelControl1_DoubleClick);
             // 
@@ -475,7 +475,7 @@ namespace VAGSuite
             this.simpleButton3.Name = "simpleButton3";
             this.simpleButton3.Size = new System.Drawing.Size(147, 23);
             this.simpleButton3.TabIndex = 7;
-            this.simpleButton3.Text = "Compare to another file";
+            this.simpleButton3.Text = "Comparar con otro archivo";
             this.simpleButton3.Visible = false;
             this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
             // 
@@ -486,7 +486,7 @@ namespace VAGSuite
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(75, 23);
             this.simpleButton2.TabIndex = 6;
-            this.simpleButton2.Text = "Refresh";
+            this.simpleButton2.Text = "Actualizar";
             this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
             // simpleButton1
@@ -496,7 +496,7 @@ namespace VAGSuite
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 5;
-            this.simpleButton1.Text = "Close";
+            this.simpleButton1.Text = "Cerrar";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // ctrlAirmassResult

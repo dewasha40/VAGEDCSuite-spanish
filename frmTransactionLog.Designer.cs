@@ -63,7 +63,7 @@ namespace VAGSuite
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(519, 361);
             this.groupControl1.TabIndex = 0;
-            this.groupControl1.Text = "Logged transactions";
+            this.groupControl1.Text = "Transacciones registradas";
             // 
             // gridControl1
             // 
@@ -90,14 +90,14 @@ namespace VAGSuite
             // 
             this.rolllBackToolStripMenuItem.Name = "rolllBackToolStripMenuItem";
             this.rolllBackToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.rolllBackToolStripMenuItem.Text = "Roll back";
+            this.rolllBackToolStripMenuItem.Text = "Revertir";
             this.rolllBackToolStripMenuItem.Click += new System.EventHandler(this.rolllBackToolStripMenuItem_Click);
             // 
             // rollForwardToolStripMenuItem
             // 
             this.rollForwardToolStripMenuItem.Name = "rollForwardToolStripMenuItem";
             this.rollForwardToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.rollForwardToolStripMenuItem.Text = "Roll forward";
+            this.rollForwardToolStripMenuItem.Text = "Reaplicar";
             this.rollForwardToolStripMenuItem.Click += new System.EventHandler(this.rollForwardToolStripMenuItem_Click);
             // 
             // gridView1
@@ -182,7 +182,7 @@ namespace VAGSuite
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 1;
-            this.simpleButton1.Text = "Ok";
+            this.simpleButton1.Text = "Aceptar";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // simpleButton2
@@ -192,7 +192,7 @@ namespace VAGSuite
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(75, 23);
             this.simpleButton2.TabIndex = 2;
-            this.simpleButton2.Text = "Details";
+            this.simpleButton2.Text = "Detalles";
             this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
             // simpleButton3
@@ -202,7 +202,7 @@ namespace VAGSuite
             this.simpleButton3.Name = "simpleButton3";
             this.simpleButton3.Size = new System.Drawing.Size(85, 23);
             this.simpleButton3.TabIndex = 3;
-            this.simpleButton3.Text = "Roll back";
+            this.simpleButton3.Text = "Revertir";
             this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
             // 
             // simpleButton4
@@ -212,7 +212,7 @@ namespace VAGSuite
             this.simpleButton4.Name = "simpleButton4";
             this.simpleButton4.Size = new System.Drawing.Size(85, 23);
             this.simpleButton4.TabIndex = 4;
-            this.simpleButton4.Text = "Roll forward";
+            this.simpleButton4.Text = "Reaplicar";
             this.simpleButton4.Click += new System.EventHandler(this.simpleButton4_Click);
             // 
             // frmTransactionLog
@@ -228,7 +228,7 @@ namespace VAGSuite
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmTransactionLog";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Transaction log";
+            this.Text = "Registro de transacciones";
             this.TopMost = true;
             this.Shown += new System.EventHandler(this.frmTransactionLog_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();

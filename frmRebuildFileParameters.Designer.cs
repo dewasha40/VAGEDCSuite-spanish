@@ -60,7 +60,7 @@ namespace VAGSuite
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(60, 13);
             this.labelControl1.TabIndex = 1;
-            this.labelControl1.Text = "Rebuild upto";
+            this.labelControl1.Text = "Reconstruir hasta";
             // 
             // checkEdit1
             // 
@@ -78,7 +78,7 @@ namespace VAGSuite
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 3;
-            this.simpleButton1.Text = "Ok";
+            this.simpleButton1.Text = "Aceptar";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // simpleButton2
@@ -88,7 +88,7 @@ namespace VAGSuite
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(75, 23);
             this.simpleButton2.TabIndex = 4;
-            this.simpleButton2.Text = "Cancel";
+            this.simpleButton2.Text = "Cancelar";
             this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
             // groupControl1
@@ -103,7 +103,7 @@ namespace VAGSuite
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(373, 100);
             this.groupControl1.TabIndex = 5;
-            this.groupControl1.Text = "Choose restore options";
+            this.groupControl1.Text = "Seleccionar las opciones de restauración";
             // 
             // frmRebuildFileParameters
             // 
@@ -117,7 +117,7 @@ namespace VAGSuite
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "frmRebuildFileParameters";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Rebuild a project file";
+            this.Text = "Reconstruir un archivo de proyecto";
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.VistaTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();

@@ -49,7 +49,7 @@ namespace VAGSuite
             this.groupBox1.Size = new System.Drawing.Size(511, 65);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Work in progress";
+            this.groupBox1.Text = "Trabajo en progreso";
             // 
             // linkLabel1
             // 
@@ -59,7 +59,7 @@ namespace VAGSuite
             this.linkLabel1.Size = new System.Drawing.Size(40, 13);
             this.linkLabel1.TabIndex = 3;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Cancel";
+            this.linkLabel1.Text = "Cancelar";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // progressBarControl1
@@ -96,7 +96,7 @@ namespace VAGSuite
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Please wait...";
+            this.Text = "Espera, por favor...";
             this.TopMost = true;
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

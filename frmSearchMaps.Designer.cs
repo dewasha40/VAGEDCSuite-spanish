@@ -73,7 +73,7 @@ namespace VAGSuite
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(407, 187);
             this.groupControl1.TabIndex = 2;
-            this.groupControl1.Text = "Search options";
+            this.groupControl1.Text = "Opciones de búsqueda";
             // 
             // textEdit1
             // 
@@ -121,7 +121,7 @@ namespace VAGSuite
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 3;
-            this.simpleButton1.Text = "Ok";
+            this.simpleButton1.Text = "Aceptar";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // simpleButton2
@@ -131,7 +131,7 @@ namespace VAGSuite
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(75, 23);
             this.simpleButton2.TabIndex = 4;
-            this.simpleButton2.Text = "Cancel";
+            this.simpleButton2.Text = "Cancelar";
             this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
             // frmSearchMaps
@@ -150,7 +150,7 @@ namespace VAGSuite
             this.Name = "frmSearchMaps";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Search maps for value...";
+            this.Text = "Buscar mapas por valor...";
             ((System.ComponentModel.ISupportInitialize)(this.spinEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);

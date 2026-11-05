@@ -44,7 +44,7 @@ namespace VAGSuite
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(305, 249);
             this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
+            this.label1.Text = "etiqueta1";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // simpleButton1
@@ -54,7 +54,7 @@ namespace VAGSuite
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 2;
-            this.simpleButton1.Text = "Ok";
+            this.simpleButton1.Text = "Aceptar";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // frmInfoBox
@@ -74,7 +74,7 @@ namespace VAGSuite
             this.Name = "frmInfoBox";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "VAGEDCSuite information";
+            this.Text = "Información de VAGEDCSuite";
             this.TopMost = true;
             this.ResumeLayout(false);
 

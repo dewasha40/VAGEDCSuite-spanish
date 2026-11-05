@@ -73,7 +73,7 @@ namespace VAGSuite
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(500, 162);
             this.groupControl1.TabIndex = 0;
-            this.groupControl1.Text = "Car settings";
+            this.groupControl1.Text = "Configuración del coche";
             // 
             // labelControl4
             // 
@@ -81,7 +81,7 @@ namespace VAGSuite
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(37, 13);
             this.labelControl4.TabIndex = 7;
-            this.labelControl4.Text = "Car VIN";
+            this.labelControl4.Text = "VIN del vehículo";
             // 
             // textEdit4
             // 
@@ -96,7 +96,7 @@ namespace VAGSuite
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(34, 13);
             this.labelControl3.TabIndex = 5;
-            this.labelControl3.Text = "Car MY";
+            this.labelControl3.Text = "Año del modelo del vehículo";
             // 
             // textEdit3
             // 
@@ -111,7 +111,7 @@ namespace VAGSuite
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(48, 13);
             this.labelControl2.TabIndex = 3;
-            this.labelControl2.Text = "Car model";
+            this.labelControl2.Text = "Modelo del vehículo";
             // 
             // textEdit2
             // 
@@ -126,7 +126,7 @@ namespace VAGSuite
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(45, 13);
             this.labelControl1.TabIndex = 1;
-            this.labelControl1.Text = "Car make";
+            this.labelControl1.Text = "Marca del vehículo";
             // 
             // textEdit1
             // 
@@ -148,7 +148,7 @@ namespace VAGSuite
             this.groupControl2.Name = "groupControl2";
             this.groupControl2.Size = new System.Drawing.Size(500, 124);
             this.groupControl2.TabIndex = 1;
-            this.groupControl2.Text = "File settings";
+            this.groupControl2.Text = "Configuración del archivo";
             // 
             // textEdit6
             // 
@@ -168,7 +168,7 @@ namespace VAGSuite
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(35, 13);
             this.labelControl7.TabIndex = 13;
-            this.labelControl7.Text = "Version";
+            this.labelControl7.Text = "Versión";
             // 
             // labelControl6
             // 
@@ -176,7 +176,7 @@ namespace VAGSuite
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(47, 13);
             this.labelControl6.TabIndex = 12;
-            this.labelControl6.Text = "Binary file";
+            this.labelControl6.Text = "Archivo binario";
             // 
             // buttonEdit1
             // 
@@ -201,7 +201,7 @@ namespace VAGSuite
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(63, 13);
             this.labelControl5.TabIndex = 9;
-            this.labelControl5.Text = "Project name";
+            this.labelControl5.Text = "Nombre del proyecto";
             // 
             // simpleButton1
             // 
@@ -209,7 +209,7 @@ namespace VAGSuite
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 2;
-            this.simpleButton1.Text = "Ok";
+            this.simpleButton1.Text = "Aceptar";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // simpleButton2
@@ -218,7 +218,7 @@ namespace VAGSuite
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(75, 23);
             this.simpleButton2.TabIndex = 3;
-            this.simpleButton2.Text = "Cancel";
+            this.simpleButton2.Text = "Cancelar";
             this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
             // frmProjectProperties
@@ -236,7 +236,7 @@ namespace VAGSuite
             this.Name = "frmProjectProperties";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Project properties";
+            this.Text = "Propiedades del proyecto";
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();

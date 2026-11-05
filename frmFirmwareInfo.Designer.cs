@@ -83,7 +83,7 @@
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(495, 273);
             this.groupControl1.TabIndex = 0;
-            this.groupControl1.Text = "Details";
+            this.groupControl1.Text = "Detalles";
             // 
             // labelControl8
             // 
@@ -91,7 +91,7 @@
             this.labelControl8.Name = "labelControl8";
             this.labelControl8.Size = new System.Drawing.Size(54, 13);
             this.labelControl8.TabIndex = 15;
-            this.labelControl8.Text = "Codeblocks";
+            this.labelControl8.Text = "Bloques de código";
             // 
             // labelControl7
             // 
@@ -99,7 +99,7 @@
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(73, 13);
             this.labelControl7.TabIndex = 13;
-            this.labelControl7.Text = "Checksum type";
+            this.labelControl7.Text = "Tipo de suma de verificación";
             // 
             // textEdit7
             // 
@@ -117,7 +117,7 @@
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(45, 13);
             this.labelControl6.TabIndex = 11;
-            this.labelControl6.Text = "ECU type";
+            this.labelControl6.Text = "Tipo de ECU";
             // 
             // textEdit6
             // 
@@ -135,7 +135,7 @@
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(51, 13);
             this.labelControl5.TabIndex = 9;
-            this.labelControl5.Text = "Car details";
+            this.labelControl5.Text = "Detalles del coche";
             // 
             // textEdit5
             // 
@@ -153,7 +153,7 @@
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(57, 13);
             this.labelControl4.TabIndex = 7;
-            this.labelControl4.Text = "Engine type";
+            this.labelControl4.Text = "Tipo de motor";
             // 
             // textEdit4
             // 
@@ -171,7 +171,7 @@
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(50, 13);
             this.labelControl3.TabIndex = 5;
-            this.labelControl3.Text = "Info string";
+            this.labelControl3.Text = "Texto informativo";
             // 
             // textEdit3
             // 
@@ -189,7 +189,7 @@
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(58, 13);
             this.labelControl2.TabIndex = 3;
-            this.labelControl2.Text = "Software ID";
+            this.labelControl2.Text = "ID de software";
             // 
             // textEdit2
             // 
@@ -207,7 +207,7 @@
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(87, 13);
             this.labelControl1.TabIndex = 1;
-            this.labelControl1.Text = "Bosch partnumber";
+            this.labelControl1.Text = "Número de parte Bosch";
             // 
             // textEdit1
             // 
@@ -226,7 +226,7 @@
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 1;
-            this.simpleButton1.Text = "Ok";
+            this.simpleButton1.Text = "Aceptar";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // buttonEdit1
@@ -251,7 +251,7 @@
             this.Name = "frmFirmwareInfo";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Firmware information";
+            this.Text = "Información del firmware";
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();

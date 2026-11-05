@@ -61,7 +61,7 @@ namespace VAGSuite
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 1;
-            this.simpleButton1.Text = "Decode";
+            this.simpleButton1.Text = "Decodificar";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // labelControl1
@@ -70,7 +70,7 @@ namespace VAGSuite
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(56, 13);
             this.labelControl1.TabIndex = 2;
-            this.labelControl1.Text = "VIN number";
+            this.labelControl1.Text = "Número VIN";
             // 
             // lblCarMake
             // 
@@ -114,7 +114,7 @@ namespace VAGSuite
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(47, 13);
             this.labelControl6.TabIndex = 10;
-            this.labelControl6.Text = "Makeyear";
+            this.labelControl6.Text = "Año de fabricación";
             // 
             // labelControl7
             // 
@@ -122,7 +122,7 @@ namespace VAGSuite
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(57, 13);
             this.labelControl7.TabIndex = 9;
-            this.labelControl7.Text = "Engine type";
+            this.labelControl7.Text = "Tipo de motor";
             // 
             // labelControl8
             // 
@@ -130,7 +130,7 @@ namespace VAGSuite
             this.labelControl8.Name = "labelControl8";
             this.labelControl8.Size = new System.Drawing.Size(28, 13);
             this.labelControl8.TabIndex = 8;
-            this.labelControl8.Text = "Model";
+            this.labelControl8.Text = "Modelo";
             // 
             // labelControl9
             // 
@@ -138,7 +138,7 @@ namespace VAGSuite
             this.labelControl9.Name = "labelControl9";
             this.labelControl9.Size = new System.Drawing.Size(25, 13);
             this.labelControl9.TabIndex = 7;
-            this.labelControl9.Text = "Make";
+            this.labelControl9.Text = "Marca";
             // 
             // labelControl10
             // 
@@ -146,7 +146,7 @@ namespace VAGSuite
             this.labelControl10.Name = "labelControl10";
             this.labelControl10.Size = new System.Drawing.Size(72, 13);
             this.labelControl10.TabIndex = 12;
-            this.labelControl10.Text = "Assembly plant";
+            this.labelControl10.Text = "Planta de ensamblaje";
             // 
             // lblPlant
             // 
@@ -163,7 +163,7 @@ namespace VAGSuite
             this.labelControl12.Name = "labelControl12";
             this.labelControl12.Size = new System.Drawing.Size(40, 13);
             this.labelControl12.TabIndex = 14;
-            this.labelControl12.Text = "Platform";
+            this.labelControl12.Text = "Plataforma";
             // 
             // lblChassis
             // 
@@ -182,7 +182,7 @@ namespace VAGSuite
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(75, 23);
             this.simpleButton2.TabIndex = 17;
-            this.simpleButton2.Text = "Close";
+            this.simpleButton2.Text = "Cerrar";
             this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
             // frmDecodeVIN
@@ -214,7 +214,7 @@ namespace VAGSuite
             this.Name = "frmDecodeVIN";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "VIN decoder";
+            this.Text = "Decodificador VIN";
             this.Load += new System.EventHandler(this.frmDecodeVIN_Load);
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             this.ResumeLayout(false);

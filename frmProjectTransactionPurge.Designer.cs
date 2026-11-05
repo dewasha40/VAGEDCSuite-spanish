@@ -72,7 +72,7 @@ namespace VAGSuite
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 2;
-            this.simpleButton1.Text = "Ok";
+            this.simpleButton1.Text = "Aceptar";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // simpleButton2
@@ -82,7 +82,7 @@ namespace VAGSuite
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(75, 23);
             this.simpleButton2.TabIndex = 3;
-            this.simpleButton2.Text = "Cancel";
+            this.simpleButton2.Text = "Cancelar";
             this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
             // frmProjectTransactionPurge
@@ -97,7 +97,7 @@ namespace VAGSuite
             this.Controls.Add(this.panel1);
             this.Name = "frmProjectTransactionPurge";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Transaction log size warning...";
+            this.Text = "Advertencia sobre el tamaño del registro de transacciones...";
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

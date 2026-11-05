@@ -46,7 +46,7 @@ namespace VAGSuite
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(32, 13);
             this.label2.TabIndex = 15;
-            this.label2.Text = "File 2";
+            this.label2.Text = "Archivo 2";
             // 
             // label1
             // 
@@ -55,7 +55,7 @@ namespace VAGSuite
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(32, 13);
             this.label1.TabIndex = 14;
-            this.label1.Text = "File 1";
+            this.label1.Text = "Archivo 1";
             // 
             // listBox1
             // 
@@ -101,7 +101,7 @@ namespace VAGSuite
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 0;
-            this.simpleButton1.Text = "Close";
+            this.simpleButton1.Text = "Cerrar";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // checkButton1
@@ -112,7 +112,7 @@ namespace VAGSuite
             this.checkButton1.Name = "checkButton1";
             this.checkButton1.Size = new System.Drawing.Size(163, 23);
             this.checkButton1.TabIndex = 16;
-            this.checkButton1.Text = "Show only differences";
+            this.checkButton1.Text = "Mostrar solo diferencias";
             this.checkButton1.CheckedChanged += new System.EventHandler(this.checkButton1_CheckedChanged);
             // 
             // simpleButton2
@@ -122,7 +122,7 @@ namespace VAGSuite
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(75, 23);
             this.simpleButton2.TabIndex = 17;
-            this.simpleButton2.Text = "Next";
+            this.simpleButton2.Text = "Siguiente";
             this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
             // simpleButton3
@@ -132,7 +132,7 @@ namespace VAGSuite
             this.simpleButton3.Name = "simpleButton3";
             this.simpleButton3.Size = new System.Drawing.Size(75, 23);
             this.simpleButton3.TabIndex = 18;
-            this.simpleButton3.Text = "Previous";
+            this.simpleButton3.Text = "Anterior";
             this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
             // 
             // simpleButton4
@@ -142,7 +142,7 @@ namespace VAGSuite
             this.simpleButton4.Name = "simpleButton4";
             this.simpleButton4.Size = new System.Drawing.Size(75, 23);
             this.simpleButton4.TabIndex = 19;
-            this.simpleButton4.Text = "Export";
+            this.simpleButton4.Text = "Exportar";
             this.simpleButton4.Click += new System.EventHandler(this.simpleButton4_Click);
             // 
             // frmBinCompare
@@ -164,7 +164,7 @@ namespace VAGSuite
             this.Name = "frmBinCompare";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Binary compare (byte-by-byte)";
+            this.Text = "Comparación binaria (byte a byte)";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -44,7 +44,7 @@ namespace VAGSuite
         private void LoadFiles()
         {
             loading = true;
-            simpleButton1.Text = "Cancel";
+            simpleButton1.Text = "Cancelar";
             simpleButton2.Enabled = false;
             SetProgressVisibility(true);
             SetScanProgress("scanning...", 0);
@@ -68,7 +68,7 @@ namespace VAGSuite
                         break;
                     }
                     FileInfo fi = new FileInfo(file);
-                    this.Text = "Library builder - " + Path.GetFileNameWithoutExtension(file);
+                    this.Text = "Constructor de biblioteca -" + Path.GetFileNameWithoutExtension(file);
                     Application.DoEvents();
                     if (IsValidLength(fi.Length))
                     {
@@ -250,8 +250,8 @@ namespace VAGSuite
             loading = false;
             SetScanProgress("done", 100);
             SetProgressVisibility(false);
-            this.Text = "Library builder";
-            simpleButton1.Text = "Close";
+            this.Text = "Constructor de biblioteca";
+            simpleButton1.Text = "Cerrar";
             simpleButton2.Enabled = true;
             Application.DoEvents();
         }

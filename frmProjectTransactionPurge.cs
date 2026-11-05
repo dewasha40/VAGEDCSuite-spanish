@@ -18,7 +18,7 @@ namespace VAGSuite
 
         public void SetNumberOfTransactions(int transactionCount)
         {
-            label2.Text = "Number of transactions in log: " + transactionCount.ToString();
+            label2.Text = "Número de transacciones en el registro:" + transactionCount.ToString();
         }
 
         private void simpleButton1_Click(object sender, EventArgs e)

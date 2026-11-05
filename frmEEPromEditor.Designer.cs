@@ -59,7 +59,7 @@
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(79, 13);
             this.labelControl1.TabIndex = 1;
-            this.labelControl1.Text = "Immobilizer code";
+            this.labelControl1.Text = "Código de inmovilizador";
             // 
             // labelControl2
             // 
@@ -67,7 +67,7 @@
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(36, 13);
             this.labelControl2.TabIndex = 3;
-            this.labelControl2.Text = "Mileage";
+            this.labelControl2.Text = "Kilometraje";
             // 
             // textEdit2
             // 
@@ -107,7 +107,7 @@
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 7;
-            this.simpleButton1.Text = "Ok";
+            this.simpleButton1.Text = "Aceptar";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // simpleButton2
@@ -117,7 +117,7 @@
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(75, 23);
             this.simpleButton2.TabIndex = 8;
-            this.simpleButton2.Text = "Cancel";
+            this.simpleButton2.Text = "Cancelar";
             this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
             // labelControl4
@@ -126,7 +126,7 @@
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(57, 13);
             this.labelControl4.TabIndex = 10;
-            this.labelControl4.Text = "Secret code";
+            this.labelControl4.Text = "Código secreto";
             // 
             // textEdit4
             // 
@@ -156,7 +156,7 @@
             this.Name = "frmEEPromEditor";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Edit EEProm contents";
+            this.Text = "Editar contenido de EEProm";
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();

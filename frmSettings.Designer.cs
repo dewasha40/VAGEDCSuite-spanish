@@ -159,7 +159,7 @@ namespace VAGSuite
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(704, 185);
             this.groupControl1.TabIndex = 0;
-            this.groupControl1.Text = "User interface settings";
+            this.groupControl1.Text = "Configuración de la interfaz de usuario";
             this.groupControl1.Paint += new System.Windows.Forms.PaintEventHandler(this.groupControl1_Paint);
             // 
             // checkEdit11
@@ -168,9 +168,9 @@ namespace VAGSuite
             this.checkEdit11.Name = "checkEdit11";
             this.checkEdit11.Properties.Caption = "Always synchronize mapviewers";
             this.checkEdit11.Size = new System.Drawing.Size(212, 19);
-            toolTipTitleItem19.Text = "Always synchronize mapviewers";
+            toolTipTitleItem19.Text = "Sincronizar siempre los visores de mapas";
             toolTipItem19.LeftIndent = 6;
-            toolTipItem19.Text = "When checked, ALL the mapviewers will react to changes made in one of the viewers" +
+            toolTipItem19.Text = "Cuando esté activado, TODOS los visualizadores de mapas reaccionarán a los cambios realizados en uno de los visualizadores" +
                 ". E.g. changing viewtype";
             superToolTip19.Items.Add(toolTipTitleItem19);
             superToolTip19.Items.Add(toolTipItem19);
@@ -183,7 +183,7 @@ namespace VAGSuite
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(126, 13);
             this.labelControl2.TabIndex = 17;
-            this.labelControl2.Text = "Default view size for maps";
+            this.labelControl2.Text = "Tamaño predeterminado de la vista de mapas";
             // 
             // comboBoxEdit2
             // 
@@ -206,9 +206,9 @@ namespace VAGSuite
             this.checkEdit15.Name = "checkEdit15";
             this.checkEdit15.Properties.Caption = "Synchronize equal mapviewers";
             this.checkEdit15.Size = new System.Drawing.Size(212, 19);
-            toolTipTitleItem1.Text = "Synchronize mapviewers";
+            toolTipTitleItem1.Text = "Sincronizar los visores de mapas";
             toolTipItem1.LeftIndent = 6;
-            toolTipItem1.Text = "When checked, all the mapviewers with the same symbol will react to changes made " +
+            toolTipItem1.Text = "Cuando esté seleccionado, todos los visores de mapas con el mismo símbolo reaccionarán a los cambios realizados" +
                 "in one of the viewers. E.g. changing viewtype";
             superToolTip1.Items.Add(toolTipTitleItem1);
             superToolTip1.Items.Add(toolTipItem1);
@@ -221,7 +221,7 @@ namespace VAGSuite
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(130, 13);
             this.labelControl1.TabIndex = 14;
-            this.labelControl1.Text = "Default view type for maps";
+            this.labelControl1.Text = "Tipo de vista predeterminado para los mapas";
             // 
             // checkEdit20
             // 
@@ -229,9 +229,9 @@ namespace VAGSuite
             this.checkEdit20.Name = "checkEdit20";
             this.checkEdit20.Properties.Caption = "Show addresses and lengths in Hex";
             this.checkEdit20.Size = new System.Drawing.Size(212, 19);
-            toolTipTitleItem2.Text = "Show addresses and length in Hex";
+            toolTipTitleItem2.Text = "Mostrar direcciones y longitud en hexadecimal";
             toolTipItem2.LeftIndent = 6;
-            toolTipItem2.Text = "When checked, the address and length data for all the symbols will be shown in he" +
+            toolTipItem2.Text = "Al activar esta opción, se mostrarán en hexadecimal las direcciones y longitudes de todos los símbolos." +
                 "xadecimal format, otherwise in decimal.";
             superToolTip2.Items.Add(toolTipTitleItem2);
             superToolTip2.Items.Add(toolTipItem2);
@@ -259,9 +259,9 @@ namespace VAGSuite
             this.checkEdit14.Name = "checkEdit14";
             this.checkEdit14.Properties.Caption = "Auto load last file on startup";
             this.checkEdit14.Size = new System.Drawing.Size(212, 19);
-            toolTipTitleItem3.Text = "Auto load last file on startup";
+            toolTipTitleItem3.Text = "Cargar automáticamente el último archivo al iniciar";
             toolTipItem3.LeftIndent = 6;
-            toolTipItem3.Text = "Lets you decide whether or not the last used file should be automatically loaded " +
+            toolTipItem3.Text = "Te permite decidir si el último archivo utilizado debe cargarse automáticamente" +
                 "when the program starts up.";
             superToolTip3.Items.Add(toolTipTitleItem3);
             superToolTip3.Items.Add(toolTipItem3);
@@ -274,9 +274,9 @@ namespace VAGSuite
             this.checkEdit12.Name = "checkEdit12";
             this.checkEdit12.Properties.Caption = "New panels are floating";
             this.checkEdit12.Size = new System.Drawing.Size(212, 19);
-            toolTipTitleItem4.Text = "New panels are floating";
+            toolTipTitleItem4.Text = "Los nuevos paneles flotan";
             toolTipItem4.LeftIndent = 6;
-            toolTipItem4.Text = "When checked makes new viewer float inside the application window in stead of doc" +
+            toolTipItem4.Text = "Al activar esta opción, los nuevos visores flotarán dentro de la ventana de la aplicación en lugar de acoplarse como documentos." +
                 "king them to the right side of the screen.";
             superToolTip4.Items.Add(toolTipTitleItem4);
             superToolTip4.Items.Add(toolTipItem4);
@@ -289,9 +289,9 @@ namespace VAGSuite
             this.checkEdit10.Name = "checkEdit10";
             this.checkEdit10.Properties.Caption = "Auto dock maps with same name";
             this.checkEdit10.Size = new System.Drawing.Size(212, 19);
-            toolTipTitleItem5.Text = "Auto dock maps with same name";
+            toolTipTitleItem5.Text = "Acoplar automáticamente los mapas con el mismo nombre";
             toolTipItem5.LeftIndent = 6;
-            toolTipItem5.Text = "When checked EDCSuite will dock newly started mapviewers to eachother whenever th" +
+            toolTipItem5.Text = "Al activar esta opción, EDCSuite acoplará automáticamente los nuevos visores de mapas que compartan nombre." +
                 "ey display the same symbol.";
             superToolTip5.Items.Add(toolTipTitleItem5);
             superToolTip5.Items.Add(toolTipItem5);
@@ -304,9 +304,9 @@ namespace VAGSuite
             this.checkEdit9.Name = "checkEdit9";
             this.checkEdit9.Properties.Caption = "Auto dock maps from same file";
             this.checkEdit9.Size = new System.Drawing.Size(212, 19);
-            toolTipTitleItem6.Text = "Auto dock maps from same file";
+            toolTipTitleItem6.Text = "Acoplar automáticamente los mapas del mismo archivo";
             toolTipItem6.LeftIndent = 6;
-            toolTipItem6.Text = "When checked EDCSuite will dock newly started mapviewers to eachother whenever th" +
+            toolTipItem6.Text = "Al activar esta opción, EDCSuite acoplará automáticamente los nuevos visores de mapas que compartan nombre." +
                 "ey are from the same binary file.";
             superToolTip6.Items.Add(toolTipTitleItem6);
             superToolTip6.Items.Add(toolTipItem6);
@@ -319,9 +319,9 @@ namespace VAGSuite
             this.checkEdit8.Name = "checkEdit8";
             this.checkEdit8.Properties.Caption = "Don\'t display colors in mapviewer";
             this.checkEdit8.Size = new System.Drawing.Size(212, 19);
-            toolTipTitleItem7.Text = "Don\'t display colors in mapviewer";
+            toolTipTitleItem7.Text = "No mostrar colores en el visor de mapas";
             toolTipItem7.LeftIndent = 6;
-            toolTipItem7.Text = "To improve performance you can check this item and coloring of the mapviewer cell" +
+            toolTipItem7.Text = "Para mejorar el rendimiento, puedes desactivar el coloreado de las celdas del visor de mapas." +
                 "s will be disabled.";
             superToolTip7.Items.Add(toolTipTitleItem7);
             superToolTip7.Items.Add(toolTipItem7);
@@ -334,7 +334,7 @@ namespace VAGSuite
             this.checkEdit7.Name = "checkEdit7";
             this.checkEdit7.Properties.Caption = "Auto size columns in mapviewer";
             this.checkEdit7.Size = new System.Drawing.Size(212, 19);
-            toolTipTitleItem8.Text = "Auto size columns in mapviewer";
+            toolTipTitleItem8.Text = "Ajustar automáticamente el tamaño de las columnas en el visor de mapas";
             toolTipItem8.LeftIndent = 6;
             superToolTip8.Items.Add(toolTipTitleItem8);
             superToolTip8.Items.Add(toolTipItem8);
@@ -347,9 +347,9 @@ namespace VAGSuite
             this.checkEdit5.Name = "checkEdit5";
             this.checkEdit5.Properties.Caption = "Show graphs in mapviewer";
             this.checkEdit5.Size = new System.Drawing.Size(212, 19);
-            toolTipTitleItem9.Text = "Show graphs in mapviewer";
+            toolTipTitleItem9.Text = "Mostrar gráficos en el visualizador de mapas";
             toolTipItem9.LeftIndent = 6;
-            toolTipItem9.Text = "When checked the graphical representation of the selected map will also be displa" +
+            toolTipItem9.Text = "Al activar esta opción, también se mostrará una representación gráfica del mapa seleccionado." +
                 "yed. This consumes more system memory en cpu time.";
             superToolTip9.Items.Add(toolTipTitleItem9);
             superToolTip9.Items.Add(toolTipItem9);
@@ -362,9 +362,9 @@ namespace VAGSuite
             this.checkEdit4.Name = "checkEdit4";
             this.checkEdit4.Properties.Caption = "View tables in hexadecimal values";
             this.checkEdit4.Size = new System.Drawing.Size(212, 19);
-            toolTipTitleItem10.Text = "View tables in hexadecimal values";
+            toolTipTitleItem10.Text = "Mostrar las tablas en hexadecimal";
             toolTipItem10.LeftIndent = 6;
-            toolTipItem10.Text = "When checked, tables will be shown in hexadecimal values as default. \r\nOtherwise " +
+            toolTipItem10.Text = "Cuando esté activado, las tablas se mostrarán por defecto en valores hexadecimales. \\r\\nDe lo contrario" +
                 "maps will  be displayed in easy mode when they are opened.";
             superToolTip10.Items.Add(toolTipTitleItem10);
             superToolTip10.Items.Add(toolTipItem10);
@@ -377,9 +377,9 @@ namespace VAGSuite
             this.checkEdit2.Name = "checkEdit2";
             this.checkEdit2.Properties.Caption = "Use red and white maps";
             this.checkEdit2.Size = new System.Drawing.Size(212, 19);
-            toolTipTitleItem11.Text = "Use red and white maps";
+            toolTipTitleItem11.Text = "Usar mapas rojos y blancos";
             toolTipItem11.LeftIndent = 6;
-            toolTipItem11.Text = "When checked, displays maps in red and transparent only. Normally green is used t" +
+            toolTipItem11.Text = "Al activar esta opción, los mapas se mostrarán en rojo y transparente; normalmente se usa el verde para indicar los valores." +
                 "o display low values and red for higher values.";
             superToolTip11.Items.Add(toolTipTitleItem11);
             superToolTip11.Items.Add(toolTipItem11);
@@ -392,9 +392,9 @@ namespace VAGSuite
             this.checkEdit1.Name = "checkEdit1";
             this.checkEdit1.Properties.Caption = "Auto size new mapwindows";
             this.checkEdit1.Size = new System.Drawing.Size(212, 19);
-            toolTipTitleItem12.Text = "Auto size new mapwindows";
+            toolTipTitleItem12.Text = "Ajustar automáticamente el tamaño de las nuevas ventanas de mapas";
             toolTipItem12.LeftIndent = 6;
-            toolTipItem12.Text = "When checked, new mapwindows will try to autosize to fit the displayed table.";
+            toolTipItem12.Text = "Cuando esté activado, las nuevas ventanas de mapas intentarán ajustarse automáticamente para adaptarse a la tabla mostrada.";
             superToolTip12.Items.Add(toolTipTitleItem12);
             superToolTip12.Items.Add(toolTipItem12);
             this.checkEdit1.SuperTip = superToolTip12;
@@ -411,7 +411,7 @@ namespace VAGSuite
             this.groupControl2.Name = "groupControl2";
             this.groupControl2.Size = new System.Drawing.Size(704, 92);
             this.groupControl2.TabIndex = 1;
-            this.groupControl2.Text = "General settings";
+            this.groupControl2.Text = "Configuración general";
             // 
             // labelControl4
             // 
@@ -419,7 +419,7 @@ namespace VAGSuite
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(65, 13);
             this.labelControl4.TabIndex = 11;
-            this.labelControl4.Text = "Project folder";
+            this.labelControl4.Text = "Carpeta del proyecto";
             // 
             // buttonEdit1
             // 
@@ -428,9 +428,9 @@ namespace VAGSuite
             this.buttonEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
             this.buttonEdit1.Size = new System.Drawing.Size(343, 20);
-            toolTipTitleItem13.Text = "Project folder";
+            toolTipTitleItem13.Text = "Carpeta del proyecto";
             toolTipItem13.LeftIndent = 6;
-            toolTipItem13.Text = "Allows you to change the default project folder.";
+            toolTipItem13.Text = "Permite cambiar la carpeta predeterminada del proyecto.";
             superToolTip13.Items.Add(toolTipTitleItem13);
             superToolTip13.Items.Add(toolTipItem13);
             this.buttonEdit1.SuperTip = superToolTip13;
@@ -442,9 +442,9 @@ namespace VAGSuite
             this.checkEdit31.Name = "checkEdit31";
             this.checkEdit31.Properties.Caption = "Request project notes";
             this.checkEdit31.Size = new System.Drawing.Size(212, 19);
-            toolTipTitleItem14.Text = "Request project notes";
+            toolTipTitleItem14.Text = "Solicitar notas del proyecto";
             toolTipItem14.LeftIndent = 6;
-            toolTipItem14.Text = "When you are working in a project and want to keep track of what you have done, y" +
+            toolTipItem14.Text = "Al trabajar en un proyecto, puedes llevar un registro de los cambios realizados." +
                 "ou can have the software ask you for a remark every time you make a change to on" +
                 "e of the maps or axis.";
             superToolTip14.Items.Add(toolTipTitleItem14);
@@ -458,9 +458,9 @@ namespace VAGSuite
             this.checkEdit6.Name = "checkEdit6";
             this.checkEdit6.Properties.Caption = "Use code block synchroniser";
             this.checkEdit6.Size = new System.Drawing.Size(184, 19);
-            toolTipTitleItem15.Text = "Use code block synchronizer";
+            toolTipTitleItem15.Text = "Usar sincronizador de bloques de código";
             toolTipItem15.LeftIndent = 6;
-            toolTipItem15.Text = "Allows the software to keep all codeblocks in the file synchronized. If data is w" +
+            toolTipItem15.Text = "Permite mantener sincronizados todos los bloques de código del archivo. Si se modifican datos en uno de ellos, los demás se actualizarán." +
                 "ritten to a map in codeblock 1, the same maps in the other codeblocks will be ov" +
                 "erwritten as well.";
             superToolTip15.Items.Add(toolTipTitleItem15);
@@ -474,9 +474,9 @@ namespace VAGSuite
             this.checkEdit3.Name = "checkEdit3";
             this.checkEdit3.Properties.Caption = "Auto update checksum";
             this.checkEdit3.Size = new System.Drawing.Size(212, 19);
-            toolTipTitleItem16.Text = "Auto update checksum";
+            toolTipTitleItem16.Text = "Actualizar automáticamente la suma de verificación";
             toolTipItem16.LeftIndent = 6;
-            toolTipItem16.Text = "... not yet implemented ... ";
+            toolTipItem16.Text = "... todavía no está implementado ...";
             superToolTip16.Items.Add(toolTipTitleItem16);
             superToolTip16.Items.Add(toolTipItem16);
             this.checkEdit3.SuperTip = superToolTip16;
@@ -489,7 +489,7 @@ namespace VAGSuite
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 2;
-            this.simpleButton1.Text = "Ok";
+            this.simpleButton1.Text = "Aceptar";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // simpleButton2
@@ -500,7 +500,7 @@ namespace VAGSuite
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(75, 23);
             this.simpleButton2.TabIndex = 3;
-            this.simpleButton2.Text = "Cancel";
+            this.simpleButton2.Text = "Cancelar";
             this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
             // checkEdit17
@@ -510,9 +510,9 @@ namespace VAGSuite
             this.checkEdit17.Name = "checkEdit17";
             this.checkEdit17.Properties.Caption = "Show table upside down";
             this.checkEdit17.Size = new System.Drawing.Size(212, 19);
-            toolTipTitleItem18.Text = "Show tables upside down";
+            toolTipTitleItem18.Text = "Mostrar tablas invertidas";
             toolTipItem18.LeftIndent = 6;
-            toolTipItem18.Text = "Allows you to display all tables upside down.";
+            toolTipItem18.Text = "Permite mostrar todas las tablas invertidas.";
             superToolTip18.Items.Add(toolTipTitleItem18);
             superToolTip18.Items.Add(toolTipItem18);
             this.checkEdit17.SuperTip = superToolTip18;
@@ -535,7 +535,7 @@ namespace VAGSuite
             this.MinimizeBox = false;
             this.Name = "frmSettings";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Settings";
+            this.Text = "Configuración";
             this.Load += new System.EventHandler(this.frmSettings_Load);
             this.Shown += new System.EventHandler(this.frmSettings_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();

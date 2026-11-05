@@ -64,7 +64,7 @@
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(30, 13);
             this.labelControl1.TabIndex = 1;
-            this.labelControl1.Text = "Folder";
+            this.labelControl1.Text = "Carpeta";
             // 
             // gridControl1
             // 
@@ -91,7 +91,7 @@
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 3;
-            this.simpleButton1.Text = "Close";
+            this.simpleButton1.Text = "Cerrar";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // simpleButton2
@@ -101,7 +101,7 @@
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(96, 23);
             this.simpleButton2.TabIndex = 4;
-            this.simpleButton2.Text = "Export to excel";
+            this.simpleButton2.Text = "Exportar a Excel";
             this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
             // progressBarControl1
@@ -121,7 +121,7 @@
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(54, 13);
             this.labelControl2.TabIndex = 6;
-            this.labelControl2.Text = "scanning...";
+            this.labelControl2.Text = "Escaneando...";
             this.labelControl2.Visible = false;
             // 
             // simpleButton3
@@ -131,7 +131,7 @@
             this.simpleButton3.Name = "simpleButton3";
             this.simpleButton3.Size = new System.Drawing.Size(96, 23);
             this.simpleButton3.TabIndex = 7;
-            this.simpleButton3.Text = "Produce library";
+            this.simpleButton3.Text = "Crear biblioteca";
             this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
             // 
             // checkEdit1
@@ -160,7 +160,7 @@
             this.Name = "frmBrowseFiles";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Library builder";
+            this.Text = "Constructor de biblioteca";
             ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();

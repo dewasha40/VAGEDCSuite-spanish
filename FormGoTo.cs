@@ -69,7 +69,7 @@ namespace VAGSuite
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(72, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Byte number:";
+            this.label1.Text = "Número de byte:";
             // 
             // btnCancel
             // 
@@ -79,7 +79,7 @@ namespace VAGSuite
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 1;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = "Cancelar";
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnOK
@@ -129,7 +129,7 @@ namespace VAGSuite
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 16);
             this.label2.TabIndex = 10;
-            this.label2.Text = "Goto";
+            this.label2.Text = "Ir a";
             // 
             // FormGoTo
             // 
@@ -148,7 +148,7 @@ namespace VAGSuite
             this.MinimizeBox = false;
             this.Name = "FormGoTo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Goto byte";
+            this.Text = "Ir a byte";
             this.Activated += new System.EventHandler(this.FormGoTo_Activated);
             ((System.ComponentModel.ISupportInitialize)(this.nup)).EndInit();
             this.ResumeLayout(false);

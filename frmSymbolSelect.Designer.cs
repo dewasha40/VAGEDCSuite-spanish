@@ -44,7 +44,7 @@ namespace VAGSuite
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(579, 88);
             this.groupControl1.TabIndex = 0;
-            this.groupControl1.Text = "Symbol list";
+            this.groupControl1.Text = "Lista de símbolos";
             // 
             // lookUpEdit1
             // 
@@ -73,7 +73,7 @@ namespace VAGSuite
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(75, 23);
             this.simpleButton2.TabIndex = 2;
-            this.simpleButton2.Text = "Cancel";
+            this.simpleButton2.Text = "Cancelar";
             this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
             // frmSymbolSelect
@@ -89,7 +89,7 @@ namespace VAGSuite
             this.MinimizeBox = false;
             this.Name = "frmSymbolSelect";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Select a symbol for the list... ";
+            this.Text = "Selecciona un símbolo para la lista...";
             this.Load += new System.EventHandler(this.frmSymbolSelect_Load);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);

@@ -97,7 +97,7 @@ namespace VAGSuite
             // 
             this.showDifferenceMapToolStripMenuItem.Name = "showDifferenceMapToolStripMenuItem";
             this.showDifferenceMapToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
-            this.showDifferenceMapToolStripMenuItem.Text = "Show differences map";
+            this.showDifferenceMapToolStripMenuItem.Text = "Mostrar mapa de diferencias";
             this.showDifferenceMapToolStripMenuItem.Click += new System.EventHandler(this.showDifferenceMapToolStripMenuItem_Click);
             // 
             // exportToExcelToolStripMenuItem
@@ -105,7 +105,7 @@ namespace VAGSuite
             this.exportToExcelToolStripMenuItem.Enabled = false;
             this.exportToExcelToolStripMenuItem.Name = "exportToExcelToolStripMenuItem";
             this.exportToExcelToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
-            this.exportToExcelToolStripMenuItem.Text = "Export to Excel";
+            this.exportToExcelToolStripMenuItem.Text = "Exportar a Excel";
             this.exportToExcelToolStripMenuItem.Click += new System.EventHandler(this.exportToExcelToolStripMenuItem_Click);
             // 
             // saveLayoutToolStripMenuItem
@@ -113,7 +113,7 @@ namespace VAGSuite
             this.saveLayoutToolStripMenuItem.Enabled = false;
             this.saveLayoutToolStripMenuItem.Name = "saveLayoutToolStripMenuItem";
             this.saveLayoutToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
-            this.saveLayoutToolStripMenuItem.Text = "Save layout";
+            this.saveLayoutToolStripMenuItem.Text = "Guardar diseño";
             this.saveLayoutToolStripMenuItem.Click += new System.EventHandler(this.saveLayoutToolStripMenuItem_Click);
             // 
             // gridView1

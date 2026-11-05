@@ -73,7 +73,7 @@ namespace VAGSuite
 			this.btnCancel.Name = "btnCancel";
 			this.btnCancel.Size = new System.Drawing.Size(72, 23);
 			this.btnCancel.TabIndex = 0;
-			this.btnCancel.Text = "Cancel";
+			this.btnCancel.Text = "Cancelar";
 			this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
 			// 
 			// lblFinding
@@ -107,7 +107,7 @@ namespace VAGSuite
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(56, 16);
 			this.label1.TabIndex = 10;
-			this.label1.Text = "Finding...";
+			this.label1.Text = "Buscando...";
 			// 
 			// lblPercent
 			// 
@@ -140,7 +140,7 @@ namespace VAGSuite
 			this.MinimizeBox = false;
 			this.Name = "FormFindCancel";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Finding...";
+			this.Text = "Buscando...";
 			this.Activated += new System.EventHandler(this.FormFindCancel_Activated);
 			this.Deactivate += new System.EventHandler(this.FormFindCancel_Deactivate);
 			this.ResumeLayout(false);
