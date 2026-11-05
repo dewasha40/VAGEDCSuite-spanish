@@ -23,4 +23,4 @@ Para trabajar con el código fuente necesitas tener instalada una versión de VA
 - [Sitio del proyecto Trionic](http://trionic.mobixs.eu/)
 - [README original en inglés](README.txt)
 
-> Esta traducción cubre la documentación de entrada. La interfaz y los recursos de texto del código todavía están en inglés.
+> La interfaz de las ventanas incluidas en los recursos `*.es.resx` aparece en español cuando Windows usa español como idioma de visualización. El resto de la interfaz y los mensajes definidos directamente en el código conservan el idioma original.

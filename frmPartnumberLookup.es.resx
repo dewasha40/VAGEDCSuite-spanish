@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="labelControl10.Text" xml:space="preserve">
+    <value>ID de software</value>
+  </data>
+  <data name="labelControl8.Text" xml:space="preserve">
+    <value>Potencia</value>
+  </data>
+  <data name="labelControl5.Text" xml:space="preserve">
+    <value>Tipo de vehículo</value>
+  </data>
+  <data name="labelControl7.Text" xml:space="preserve">
+    <value>Tipo de combustible</value>
+  </data>
+  <data name="labelControl3.Text" xml:space="preserve">
+    <value>Tipo de ECU</value>
+  </data>
+  <data name="labelControl2.Text" xml:space="preserve">
+    <value>Marca del vehículo</value>
+  </data>
+  <data name="groupControl1.Text" xml:space="preserve">
+    <value>Resultados</value>
+  </data>
+  <data name="labelControl1.Text" xml:space="preserve">
+    <value>Número de pieza</value>
+  </data>
+  <data name="simpleButton1.Text" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="simpleButton2.Text" xml:space="preserve">
+    <value>Abrir este archivo</value>
+  </data>
+  <data name="simpleButton3.Text" xml:space="preserve">
+    <value>Comparar con este archivo</value>
+  </data>
+  <data name="simpleButton4.Text" xml:space="preserve">
+    <value>Crear uno nuevo a partir del original</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Búsqueda por número de pieza</value>
+  </data>
+</root>

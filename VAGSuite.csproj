@@ -374,6 +374,9 @@
     <EmbeddedResource Include="frmBinmerger.resx">
       <DependentUpon>frmBinmerger.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmBinmerger.es.resx">
+      <DependentUpon>frmBinmerger.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmBrowseFiles.resx">
       <DependentUpon>frmBrowseFiles.cs</DependentUpon>
     </EmbeddedResource>
@@ -410,10 +413,16 @@
     <EmbeddedResource Include="frmPartNumberList.resx">
       <DependentUpon>frmPartNumberList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmPartNumberList.es.resx">
+      <DependentUpon>frmPartNumberList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPartnumberLookup.nl.resx">
       <DependentUpon>frmPartnumberLookup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPartnumberLookup.resx">
+      <DependentUpon>frmPartnumberLookup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPartnumberLookup.es.resx">
       <DependentUpon>frmPartnumberLookup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmProgress.resx">
@@ -429,6 +438,9 @@
       <DependentUpon>frmProjectSelection.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmProjectTransactionPurge.resx">
+      <DependentUpon>frmProjectTransactionPurge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProjectTransactionPurge.es.resx">
       <DependentUpon>frmProjectTransactionPurge.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRebuildFileParameters.resx">
@@ -456,6 +468,9 @@
       <DependentUpon>HexViewer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HexViewer.resx">
+      <DependentUpon>HexViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HexViewer.es.resx">
       <DependentUpon>HexViewer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MapViewerEx.resx">
